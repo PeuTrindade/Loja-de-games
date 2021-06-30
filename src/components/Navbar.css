@@ -1,0 +1,39 @@
+.navbar-container {
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-family: arial;
+    position: sticky;
+}
+.navbar-title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.navbar-items-desktop {
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    padding:5px;
+}
+.navbar-link-desktop {
+    text-decoration: none;
+    color:white;
+    margin-right:30px;
+    transition: all ease 0.3s;
+}
+.navbar-hr {
+    margin-top: 27px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.navbar-link-desktop:hover {
+    color:rgb(219, 21, 21);
+    font-size: 18px;
+}
+@media (max-width:750px){
+    .navbar-items-desktop{
+        overflow-x: auto;
+        justify-content: start;
+    }
+}
+
